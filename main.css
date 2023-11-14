@@ -1,0 +1,40 @@
+body {
+    font-size: 18px;
+}
+
+.first-letter::first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+
+.first-line::first-line {
+    color: red;
+}
+
+.selected-word::selection {
+    background-color: green;
+    color: white;
+}
+
+.before-after::before {
+    content: "Начало:";
+    color: red;
+}
+
+.before-after::after {
+    content: ":конец!";
+    color: green;
+}
+
+.list li:first-child {
+    color: red;
+}
+
+.list li:last-child {
+    color: green;
+}
+
+.list li:nth-child(5) {
+    color: orange;
+}
